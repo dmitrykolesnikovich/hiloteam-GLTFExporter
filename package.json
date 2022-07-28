@@ -10,7 +10,12 @@
     "rollup": "rollup -c rollup.config.js",
     "eslint-fix": "eslint lib/** --fix",
     "api-extractor": "api-extractor run --local --verbose",
-    "dev": "npm run start"
+    "dev": "npm run start",
+    "version": "tnpm run build && git add -A",
+    "postpublish": "git push --tags",
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch"
   },
   "repository": {
     "type": "git",
