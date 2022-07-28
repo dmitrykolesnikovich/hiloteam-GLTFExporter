@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2018",
+    "downlevelIteration": false,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "declarationDir": "./temp",
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "paths": {},
+    "baseUrl": "plugin"
+  },
+  "include": [
+    "lib", "demo"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

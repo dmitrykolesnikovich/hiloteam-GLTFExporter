@@ -40,7 +40,10 @@ export class GLTFExporter {
       this._materialSerializers,
       config
     );
-    await serializer.serialize(scene, config.anims);
+    await serializer.serialize(
+      scene,
+      config.anims || Hilo3d.Animation['_anims']
+    );
     return serializer;
   }
 }
