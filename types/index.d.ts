@@ -807,12 +807,13 @@ declare class GLTFSerializer {
 
 declare interface IExporterConfig {
     /**
-     * 相机
+     * 是否导出stage的相机
+     * @default false
      */
     camera?: boolean;
     /**
      * 需要导出的动画
-     * @default null
+     * @default Hilo3d.Animation['_anims']
      */
     anims?: Hilo3d.Animation[];
     /**
