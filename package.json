@@ -1,6 +1,6 @@
 {
   "name": "hilo3d-gltf-exporter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hilo3d GLTFExporter",
   "main": "index.js",
   "scripts": {
